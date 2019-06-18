@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url('font/GoogleSans.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: Google Sans;
+  text-align: center;
+  color: #fff;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #00000049;
+}
+
+.container{
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.txt-titulo{
+  font-size: 21px;
+  color:rgb(18, 45, 71);
+  text-shadow: 0px 2px 10px #00000025;
+}
+
+#home-btn-1,#home-btn-2,#home-btn-3,#home-btn-4{
+  border-radius: 5px;
+  border: 0px solid transparent;
+  width: 95%;
+  padding: 10px 0px;
+  box-shadow: 0px 2px 10px #00000049;
+  color: white;
+}
+
+#home-btn-1:active,#home-btn-2:active,#home-btn-3:active,#home-btn-4:active{
+  background-color: rgb(67, 75, 92);
+  color: white;
+}
+
+#home-btn-1{
+  background-color: #663672;
+}
+
+#home-btn-2{
+  background-color: #A25374;
+}
+
+#home-btn-3{
+  background-color: #E07C77;
+}
+
+#home-btn-4{
+  background-color: #F39A79;
+}

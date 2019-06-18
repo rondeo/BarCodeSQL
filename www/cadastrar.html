@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <!-- JavaScript -->
+    <script src="components/loader.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scanner.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="scanBarCode()">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <hr>
+        <span class="txt-titulo" id="titulo-codigo">CÓDIGO</span>
+        <hr>
+        <input class="form-control" type="text" id="produto" placeholder="Nome do produto">
+        <br>
+        <input class="form-control" type="number" id="valor" placeholder="Preço">
+        <br>
+        <input class="form-control" type="text" id="processador" placeholder="Processador">
+        <br>
+        <input class="form-control" type="text" id="so" placeholder="Sistema Operacional">
+        <br>
+        <input class="form-control" type="text" id="tela" placeholder="Tamanho da tela">
+        <br>
+        <select class="form-control" id="wifi">
+          <option value="" disabled selected>Possui Wi-fi?</option>
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+        <br>
+        <select class="form-control" id="tela">
+          <option value="" disabled selected>Quantas câmeras?</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br>
+        <input class="form-control" type="number" id="camresolucao" placeholder="Resolucao da câmera traseira">
+        <br>
+        <input class="form-control" type="number" id="memoria" placeholder="Armazenamento interno">
+        <hr>
+        <a href="index.html"><button id="home-btn-1" style="width:100%;">CADASTRAR</button></a>
+        <br>
+        <br>
+        <a href="index.html"><button id="home-btn-2" style="width:100%;">VOLTAR</button></a>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
